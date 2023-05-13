@@ -1,0 +1,20 @@
+{
+    "name": "mikhail/eco_finance",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.1",
+        "doctrine/dbal": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\EcoFinance\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail Chernyavsky",
+            "email": "chernyavskym@gmail.com"
+        }
+    ]
+}
