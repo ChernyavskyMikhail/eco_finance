@@ -4,11 +4,13 @@
     "license": "proprietary",
     "require": {
         "php": "^8.1",
-        "doctrine/dbal": "^3.6"
+        "doctrine/dbal": "^3.6",
+        "ext-pdo": "*",
+      "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
-            "User\\EcoFinance\\": "src/"
+            "EcoFinance\\": "src/"
         }
     },
     "authors": [
